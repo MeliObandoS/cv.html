@@ -1,0 +1,213 @@
+* {
+    margin: 10px;
+    padding: 0;
+    position: relative;
+}
+
+.fortalezas {
+    font-style: italic;
+    color: white;
+}
+
+.intro {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: white;
+    font-style: italic;
+    margin: -1%;
+    line-height: 200%;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+  background: #ccc;
+  background:repeating-linear-gradient(to right,white,rgb(233, 58, 146),rgb(2, 218, 196) 50px);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+
+.info {
+    color: white;
+    font-style: italic;
+
+}
+
+.foto {
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 10%;
+}
+
+.nombre {
+    color: white;
+}
+
+.debilidades {
+    color: white;
+    font-style: italic;
+}
+
+.experienciaLaboral {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.footer {
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.certificaciones {
+    color: white;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.body {
+    background-color: black;
+    background: linear-gradient(black, rgb(58, 58, 58), black);
+}
+
+.educación {
+    color: white;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.idiomas {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.meme {
+    height: 150px;
+    border-radius: 5%;
+    margin: 1px;
+}
+
+
+.fyd {
+    display: flex;
+    flex-direction: row;
+}
+
+.nombre {
+    text-decoration: line-through;
+    font-size: 30px;
+}
+
+.nickName {
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+}
+
+.names {
+    background: #ccc;
+    background: radial-gradient(white, rgb(240, 12, 240), rgb(0, 255, 234), white, rgb(0, 255, 234));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    min-width: 560px;
+}
+
+.intro,
+.info,
+.fyd,
+.experienciaLaboral,
+.educación,
+.idiomas,
+.certificaciones,
+.referenciasPersonales {
+    font-size: medium;
+    background: #ccc;
+    background: radial-gradient(white, rgb(240, 12, 240), rgb(0, 255, 234), white, rgb(0, 255, 234));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding: 0%;
+}
+
+a.link:hover {
+    font-style: italic;
+    font-size: x-large;
+    background: white;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+a.link:visited {
+    color: white;
+}
+
+.foto1,
+.foto2 {
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    min-width: 650px;
+}
+
+.textoHover {
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-weight: bold;
+    width: 215px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+.containerFotos {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.container img {
+    position: absolute;
+    transition: opacity 0s;
+}
+
+.container img.foto1:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+body {
+  font-size: 14px;
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 16px;
+  }
+}
